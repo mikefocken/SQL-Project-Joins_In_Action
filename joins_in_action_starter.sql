@@ -12,7 +12,7 @@ SELECT * FROM movies RIGHT JOIN users on movie_id = favorite_movie_id;
 -- Do a left join to see all records from the movies table and matching records from the users table.
 -- EXPECTED RESULT: 75 Rows Returned
 
-
+select *
 -- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 2 >>>>>>>>>>>>>>>>>>>>>>>
 -- Do a right join to see all records from the users table and matching records from the movies table.
 -- EXPECTED RESULT: 16 Rows Returned
